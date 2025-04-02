@@ -94,12 +94,5 @@ We welcome contributions! See:
 
 📌 **Star this repo** to stay updated!  
 💬 **Questions?** Open a GitHub Discussion.
-```
 
----
 
-### Key Design Choices:
-1. **Visual Appeal** – Shields, emojis, and tables make it skimmable.  
-2. **Problem/Solution** – Clearly contrasts XGSL with traditional spreadsheets.  
-3. **Action-Oriented** – Quick start section gets users coding immediately.  
-4. **Transparency** – Roadmap builds trust in project maturity.  
