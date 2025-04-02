@@ -4,12 +4,11 @@
 # XGSL (eXtensible Grid Sheet Language)  
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Build Status](https://github.com/your-username/xgsl/actions/workflows/ci.yml/badge.svg)](https://github.com/your-username/xgsl/actions)
 [![Rust Version](https://img.shields.io/badge/Rust-1.70%2B-orange)](https://www.rust-lang.org)
 
 **Spreadsheets as Code.** Define complex spreadsheets declaratively, version them with Git, and export to Excel, Google Sheets, or LibreOffice.
 
-```java
+```xgsl
 // Example: Sales Report
 @compose(Product, Sales)
 table SalesReport {
@@ -49,19 +48,19 @@ xgsl fmt report.xgsl
 ## Language Highlights
 
 ### Formulas with Virtual Variables
-```java
+```xgsl
 // Relative references (like Excel’s A1 notation, but readable)
 growth: Formula((.up.revenue - this.revenue) / .up.revenue)
 ```
 
 ### Cross-Entity References
-```java
+```xgsl
 // Pull data from other tables
 inventory: Formula(Inventory[this.product_id].stock)
 ```
 
 ### Dependency Management
-```java
+```xgsl
 // Import templates from GitHub
 @import("github:company/report-templates@v1.2")
 table Q4Report extends QuarterlyTemplate { ... }
@@ -80,7 +79,8 @@ table Q4Report extends QuarterlyTemplate { ... }
 
 We welcome contributions! See:
 - [RFC 0001](rfcs/0001-xgsl.md) – Design overview.
-- [CONTRIBUTING.md](CONTRIBUTING.md) – Development guidelines.
+
+<! --- [CONTRIBUTING.md](CONTRIBUTING.md) – Development guidelines. ==>
 
 ## Why XGSL?
 
