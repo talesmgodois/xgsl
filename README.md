@@ -80,8 +80,6 @@ table Q4Report extends QuarterlyTemplate { ... }
 We welcome contributions! See:
 - [RFC 0001](rfcs/0001-xgsl.md) – Design overview.
 
-<! --- [CONTRIBUTING.md](CONTRIBUTING.md) – Development guidelines. ==>
-
 ## Why XGSL?
 
 | Problem               | XGSL Solution              |
