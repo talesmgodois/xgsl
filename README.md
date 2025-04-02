@@ -70,8 +70,8 @@ table Q4Report extends QuarterlyTemplate { ... }
 
 | Feature               | Status       |
 |-----------------------|-------------|
-| Excel Exporter        | ✅ Released  |
-| Google Sheets Exporter| 🚧 In Progress |
+| Excel Exporter        | 🔜 Planned   |
+| Google Sheets Exporter| 🔜 Planned  |
 | Language Server (LSP) | 🔜 Planned   |
 | Dependency Resolver   | 🔜 Planned   |
 
